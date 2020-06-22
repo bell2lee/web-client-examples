@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <style>
+        body {background: #f2a7b4;}
+        body * {font-family: 'Noto Sans KR';}
+        form {background:#fff; width:600px; margin:0 auto; padding:50px; border-radius:20px;}
+        h1 {text-align:center; color:#fff; text-shadow: 0px 5px 30px rgba(0,0,0,.5);}
+        input[type='text'] {width:600px; padding:10px 0; text-align: center; font-size:2rem; border-radius: 30px; border:1px solid #c8c8c8; margin-bottom:30px; outline: none;}
+        input[type='button'] {width:600px; padding:10px; background:#fff; border:1px solid #c8c8c8; border-radius:30px; font-size:2rem;}
+        input[type='button']:hover, input[type='text']:hover {box-shadow:  0px 5px 30px rgba(0,0,0,.5); transition: .5s;}
+
+        #user_list {list-style:none;padding:0; margin:0;}
+        #user_list li {border-bottom:1px solid #c8c8c8; padding:15px; font-size:1.5rem;}
+        #user_list li span {float:right; font-weight:bold; cursor:pointer;}
+    </style>
+</head>
+<body>
+    <h1>Node를 추가하여 DOM 접근</h1>
+    <form>
+        <input type="text" id="username"><input type="button" id="add_btn" value="등록">
+        <ul id="user_list"></ul>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

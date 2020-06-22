@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <div id="imgs">
+        <img src="img/1.jpeg" id="main_img">
+        <div class="small_img">
+            <img src="img/1.jpeg">
+            <img src="img/2.jpeg">
+            <img src="img/3.jpeg">
+            <img src="img/4.jpeg">
+            <img src="img/5.jpeg">
+        </div>
+    </div>
+    <div id="description">
+        <small>상품번호 : 4843323978 </small>
+        <h1>아이폰 핑크 딸기 모찌 케이스 [아이폰X 6 6s 7 8 플러스]</h1>
+        <h2 id="price">7,900<small>원</small></h2>
+        <h3>배송</h3>
+        <ul>
+            <li>배송방법 택배</li>
+            <li>배송비2,500원 (50,000원 이상 구매 시 무료)</li>
+            <li>제주 3000 도서산간지역 최소6000</li>
+            <li>주문시 결제</li>
+            <li></li>
+        </ul>
+        <hr>
+        <h3>옵션</h3>
+        <label>
+            기종
+            <select id="options">
+                <option value="0" disabled selected>기종</option>
+                <option value="0">아이폰7</option>
+                <option value="0">아이폰8</option>
+                <option value="0">아이폰XR</option>
+                <option value="0">아이폰XS</option>
+                <option value="1000">아이폰11(+1,000)</option>
+            </select>
+        </label>
+        <label>
+            추가 옵션
+            <select id="add_options">
+                <option value="0" selected>추가 옵션</option>
+                <option value="5000">휴대폰 거치대(+5,000)</option>
+                <option value="3000">강화유리필름(+3,000)</option>
+            </select>
+        </label>
+        <hr>
+        <h3>Total</h3>
+        <h2 id="total_price">7,900</h2>
+        <button id="buy">구매하기</button>
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
